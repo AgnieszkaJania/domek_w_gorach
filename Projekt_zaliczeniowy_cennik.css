@@ -1,0 +1,116 @@
+body{
+
+    font-family: 'Playfair Display', serif;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(245, 245, 220);
+    
+}
+#strona{
+    margin: 0 auto;
+    max-width:900px;
+}
+
+#container{
+    background-color: rgba(30, 112, 85, 0.1);
+    display:flex;
+    justify-content: center;
+      
+}
+
+
+#txt{
+    background-color:rgba(30, 112, 85, 0.1);
+    
+}
+
+table{
+    
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid black;
+    text-align: center;
+}  
+th{
+    background-color: rgba(30, 112, 85, 0.9);
+}
+tr:hover{
+    background-color: rgb(201, 238, 227);
+}
+
+#tableL, #tableZ{
+    margin: 20px;
+    visibility: hidden;
+    
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    font-size:25px;
+    
+}
+
+#btn3{
+    
+    text-decoration: none;
+    padding:10px;
+    border:1px solid black;
+    background-color: rgba(30, 112, 85, 0.1);
+    margin-top:10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+   
+}
+a:link{
+    text-decoration: none;
+   
+}
+a{
+    color:black;
+}
+
+
+#btn3:hover{
+    background-color: rgba(30, 112, 85, 0.3);
+    transition: 0.5s ease-in-out;
+}
+#Kontakt:hover{
+    background-color: rgba(30, 112, 85, 0.1);
+    
+}
+#Kontakt{
+    margin-top: 10px;
+}
+#daneKon{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+#btn5{
+    box-sizing: border-box;
+    padding: 5px; 
+    margin-bottom: 10px;
+    background-color: rgba(30, 112, 85, 0.1);
+    min-height: 40px;
+
+}
+
+
+
+
+
+
+@media (max-width:600px){
+    #container{
+        display:flex;
+        flex-direction: column;
+        
+
+    }
+}

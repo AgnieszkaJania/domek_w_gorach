@@ -1,0 +1,251 @@
+body{
+    background-color: rgb(245, 245, 220);
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+div .lista {
+    position: sticky; 
+    top:0;
+    z-index: 1000000;
+}
+ul{
+    text-decoration: none;
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    background-color:rgb(110, 180, 157);  
+
+}
+
+li{
+    float:left;
+}
+li a {
+    display:inline-block;
+    color:white;
+    text-align: center;
+    padding:20px;
+    text-decoration: none;
+    
+}
+ .dropdown:hover{
+    background-color:rgb(153, 180, 171);
+}
+.dymek{
+    background-color: rgb(153, 180, 171);
+
+}
+
+
+.container3 a{
+    
+    padding: 15px;
+    background-color: rgb(110, 180, 157);
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+    
+    
+}
+.container3 a:hover{
+    background-color: #444;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    
+    
+}
+
+#zdj{
+    position: relative;
+    width:60%;
+    min-height: 1000px;
+    margin:10px auto;
+    overflow: hidden;
+    
+}
+
+.zdjImg{
+    position: absolute;
+    display: block;
+    max-width: 100%;
+    transition: all 1s;
+}
+
+.header{
+  background-image: url("./gray-house-with-fireplace-surrounded-by-grass-under-white-731082.jpg");  
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center; 
+    box-sizing: border-box;
+    min-height: 500px;
+    color:beige;
+    font-size: 20px;
+    
+}
+
+
+#title{
+    font-size: 50px;
+}
+.dropdown-content{
+    display:none;
+    position:absolute;
+    min-width:160px;
+    background-color: rgb(153, 180, 171);
+}
+.dropdown-content a{
+    display:block;
+}
+.dropdown-content a:hover{
+background-color: rgb(215, 223, 220);
+}
+
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.container1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.container1 div{
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    
+    
+}
+.main{
+    display:block;
+}
+
+.image img{
+    width:100%;
+    height:100%;
+    transition: all 1s ease-in-out;
+    
+}
+
+.image img:hover{
+    transform: scale(1.2);
+    opacity: 0.7;
+    
+}
+#desc{
+    position: relative;
+    width: 100%;
+    z-index: 10;
+   
+    
+    
+}
+
+#desc li{
+    
+    float:none;
+    
+      
+}
+
+#desc:hover .dropdown-content{
+    display:block;
+
+}
+
+
+
+
+
+
+.stopka{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(110, 180, 157);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+#txt{
+    background-color: rgba(30, 112, 85, 0.1);
+    box-sizing: border-box;
+    padding:10px;
+    
+   
+}
+
+#kontakt{
+    margin-bottom: 10px;
+}
+#daneKon{
+    display:flex;
+    justify-content: space-around;
+
+}
+#kontakt:hover{
+    background-color:rgba(185, 185, 169,0.3) ;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+.stopka a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-color: rgba(170, 230, 225, 0.842);
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    margin: 5px;
+    padding:10px;
+    
+}
+.stopka a:hover{
+    opacity: 0.7;
+    transition: 0.5s ease-in-out;
+
+}
+
+@media(max-width:600px){
+    li {
+        float:none;
+    }
+    li a{
+        display: block;
+        padding:5px;
+    }
+    
+
+    .dropdown-content{
+        position: relative;
+    }
+   
+
+    .container1{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+   
